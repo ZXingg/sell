@@ -1,0 +1,92 @@
+2018-02-10 13:08:26.587  INFO 13664 --- [main] com.zxing.sell.LombokTest                : Starting LombokTest on ZXing with PID 13664 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+2018-02-10 13:08:26.590  INFO 13664 --- [main] com.zxing.sell.LombokTest                : No active profile set, falling back to default profiles: default
+2018-02-10 13:08:26.940  INFO 13664 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4d0f2471: startup date [Sat Feb 10 13:08:26 CST 2018]; root of context hierarchy
+2018-02-10 13:08:38.491  INFO 13664 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4d0f2471: startup date [Sat Feb 10 13:08:26 CST 2018]; root of context hierarchy
+2018-02-10 13:08:39.131  INFO 13664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 13:08:39.135  INFO 13664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 13:08:39.317  INFO 13664 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 13:08:39.318  INFO 13664 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 13:08:39.653  INFO 13664 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 13:08:40.676  INFO 13664 --- [main] com.zxing.sell.LombokTest                : Started LombokTest in 17.428 seconds (JVM running for 24.359)
+2018-02-10 13:08:40.974  INFO 13664 --- [main] com.zxing.sell.LombokTest                : name:zx,pwd:123
+2018-02-10 13:08:40.980 ERROR 13664 --- [main] com.zxing.sell.LombokTest                : error...
+2018-02-10 13:08:40.980  WARN 13664 --- [main] com.zxing.sell.LombokTest                : warn...
+2018-02-10 13:08:40.980  INFO 13664 --- [main] com.zxing.sell.LombokTest                : info...
+2018-02-10 13:08:41.007  INFO 13664 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4d0f2471: startup date [Sat Feb 10 13:08:26 CST 2018]; root of context hierarchy
+2018-02-10 13:09:34.678  INFO 6936 --- [main] com.zxing.sell.LombokTest                : Starting LombokTest on ZXing with PID 6936 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+2018-02-10 13:09:34.682  INFO 6936 --- [main] com.zxing.sell.LombokTest                : No active profile set, falling back to default profiles: default
+2018-02-10 13:09:35.158  INFO 6936 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@71cf1b07: startup date [Sat Feb 10 13:09:35 CST 2018]; root of context hierarchy
+2018-02-10 13:09:48.631  INFO 6936 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@71cf1b07: startup date [Sat Feb 10 13:09:35 CST 2018]; root of context hierarchy
+2018-02-10 13:09:49.187  INFO 6936 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 13:09:49.196  INFO 6936 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 13:09:49.434  INFO 6936 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 13:09:49.471  INFO 6936 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 13:09:49.729  INFO 6936 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 13:09:50.979  INFO 6936 --- [main] com.zxing.sell.LombokTest                : Started LombokTest in 23.485 seconds (JVM running for 36.627)
+2018-02-10 13:09:51.212  INFO 6936 --- [main] com.zxing.sell.LombokTest                : name:zx,pwd:123
+2018-02-10 13:09:51.218 ERROR 6936 --- [main] com.zxing.sell.LombokTest                : error...
+2018-02-10 13:09:51.219  WARN 6936 --- [main] com.zxing.sell.LombokTest                : warn...
+2018-02-10 13:09:51.219  INFO 6936 --- [main] com.zxing.sell.LombokTest                : info...
+2018-02-10 13:09:51.403  INFO 6936 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@71cf1b07: startup date [Sat Feb 10 13:09:35 CST 2018]; root of context hierarchy
+2018-02-10 13:12:13.195  INFO 1236 --- [main] com.zxing.sell.LombokTest                : Starting LombokTest on ZXing with PID 1236 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+2018-02-10 13:12:13.237  INFO 1236 --- [main] com.zxing.sell.LombokTest                : No active profile set, falling back to default profiles: default
+2018-02-10 13:12:13.479  INFO 1236 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@71def8f8: startup date [Sat Feb 10 13:12:13 CST 2018]; root of context hierarchy
+2018-02-10 13:12:22.961  INFO 1236 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@71def8f8: startup date [Sat Feb 10 13:12:13 CST 2018]; root of context hierarchy
+2018-02-10 13:12:23.268  INFO 1236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 13:12:23.280  INFO 1236 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 13:12:23.427  INFO 1236 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 13:12:23.430  INFO 1236 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 13:12:23.664  INFO 1236 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 13:12:24.337  INFO 1236 --- [main] com.zxing.sell.LombokTest                : Started LombokTest in 14.692 seconds (JVM running for 19.232)
+2018-02-10 13:12:24.587  INFO 1236 --- [main] com.zxing.sell.LombokTest                : name:zx,pwd:123
+2018-02-10 13:12:24.592 ERROR 1236 --- [main] com.zxing.sell.LombokTest                : error...
+2018-02-10 13:12:24.593  WARN 1236 --- [main] com.zxing.sell.LombokTest                : warn...
+2018-02-10 13:12:24.594  INFO 1236 --- [main] com.zxing.sell.LombokTest                : info...
+2018-02-10 13:12:24.683  INFO 1236 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@71def8f8: startup date [Sat Feb 10 13:12:13 CST 2018]; root of context hierarchy
+2018-02-10 16:32:44.828  INFO 3448 --- [main] com.zxing.sell.LombokTest                : Starting LombokTest on ZXing with PID 3448 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+2018-02-10 16:32:44.831 DEBUG 3448 --- [main] com.zxing.sell.LombokTest                : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-10 16:32:44.831  INFO 3448 --- [main] com.zxing.sell.LombokTest                : No active profile set, falling back to default profiles: default
+2018-02-10 16:32:45.050  INFO 3448 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4d0f2471: startup date [Sat Feb 10 16:32:45 CST 2018]; root of context hierarchy
+2018-02-10 16:32:53.070  INFO 3448 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4d0f2471: startup date [Sat Feb 10 16:32:45 CST 2018]; root of context hierarchy
+2018-02-10 16:32:53.400  INFO 3448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 16:32:53.406  INFO 3448 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 16:32:53.651  INFO 3448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 16:32:53.653  INFO 3448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 16:32:53.853  INFO 3448 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 16:32:54.791  INFO 3448 --- [main] com.zxing.sell.LombokTest                : Started LombokTest in 11.731 seconds (JVM running for 22.321)
+2018-02-10 16:32:54.976  INFO 3448 --- [main] com.zxing.sell.LombokTest                : name:zx,pwd:123
+2018-02-10 16:32:54.981 ERROR 3448 --- [main] com.zxing.sell.LombokTest                : error...
+2018-02-10 16:32:54.983  WARN 3448 --- [main] com.zxing.sell.LombokTest                : warn...
+2018-02-10 16:32:54.984  INFO 3448 --- [main] com.zxing.sell.LombokTest                : info...
+2018-02-10 16:32:54.984 DEBUG 3448 --- [main] com.zxing.sell.LombokTest                : debug...
+2018-02-10 16:32:55.094  INFO 3448 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4d0f2471: startup date [Sat Feb 10 16:32:45 CST 2018]; root of context hierarchy
+2018-02-10 16:33:43.425  INFO 3528 --- [main] com.zxing.sell.LombokTest                : Starting LombokTest on ZXing with PID 3528 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+2018-02-10 16:33:43.428  INFO 3528 --- [main] com.zxing.sell.LombokTest                : No active profile set, falling back to default profiles: default
+2018-02-10 16:33:43.811  INFO 3528 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@71def8f8: startup date [Sat Feb 10 16:33:43 CST 2018]; root of context hierarchy
+2018-02-10 16:33:57.292  INFO 3528 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@71def8f8: startup date [Sat Feb 10 16:33:43 CST 2018]; root of context hierarchy
+2018-02-10 16:33:58.196  INFO 3528 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 16:33:58.204  INFO 3528 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 16:33:58.383  INFO 3528 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 16:33:58.385  INFO 3528 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 16:33:58.556  INFO 3528 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 16:33:59.247  INFO 3528 --- [main] com.zxing.sell.LombokTest                : Started LombokTest in 18.092 seconds (JVM running for 22.618)
+2018-02-10 16:33:59.512  INFO 3528 --- [main] com.zxing.sell.LombokTest                : name:zx,pwd:123
+2018-02-10 16:33:59.518 ERROR 3528 --- [main] com.zxing.sell.LombokTest                : error...
+2018-02-10 16:33:59.518  WARN 3528 --- [main] com.zxing.sell.LombokTest                : warn...
+2018-02-10 16:33:59.518  INFO 3528 --- [main] com.zxing.sell.LombokTest                : info...
+2018-02-10 16:33:59.541  INFO 3528 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@71def8f8: startup date [Sat Feb 10 16:33:43 CST 2018]; root of context hierarchy
+2018-02-10 16:38:16.319  INFO 1776 --- [main] com.zxing.sell.LombokTest                : Starting LombokTest on ZXing with PID 1776 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+2018-02-10 16:38:16.324  INFO 1776 --- [main] com.zxing.sell.LombokTest                : No active profile set, falling back to default profiles: default
+2018-02-10 16:38:17.542  INFO 1776 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5e1fa5b1: startup date [Sat Feb 10 16:38:17 CST 2018]; root of context hierarchy
+2018-02-10 16:38:33.729  INFO 1776 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5e1fa5b1: startup date [Sat Feb 10 16:38:17 CST 2018]; root of context hierarchy
+2018-02-10 16:38:34.257  INFO 1776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-10 16:38:34.290  INFO 1776 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-10 16:38:34.663  INFO 1776 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 16:38:34.667  INFO 1776 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 16:38:35.638  INFO 1776 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-10 16:38:37.522  INFO 1776 --- [main] com.zxing.sell.LombokTest                : Started LombokTest in 25.089 seconds (JVM running for 50.634)
+2018-02-10 16:38:38.061  INFO 1776 --- [main] com.zxing.sell.LombokTest                : name:zx,pwd:123
+2018-02-10 16:38:38.090 ERROR 1776 --- [main] com.zxing.sell.LombokTest                : error...
+2018-02-10 16:38:38.091  WARN 1776 --- [main] com.zxing.sell.LombokTest                : warn...
+2018-02-10 16:38:38.092  INFO 1776 --- [main] com.zxing.sell.LombokTest                : info...
+2018-02-10 16:38:38.175  INFO 1776 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5e1fa5b1: startup date [Sat Feb 10 16:38:17 CST 2018]; root of context hierarchy

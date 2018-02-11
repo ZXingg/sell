@@ -1,0 +1,24 @@
+server:
+  port: 8081
+  context-path: /sell
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/sell?characterEncoding=utf8&useSSL=false
+    username: root
+    password: z101496x
+  jpa:
+    show-sql: true
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      trigger-file: E:\java\All-Workplace\2017workplace\sell\src\main\java\com\zxing\sell\restartTriggerFile.txt
+logging:
+  level: info #此处设置debug不生效？？应去除springboot自带slf4j依赖？
+
+#    com.zxing.sell.LombokTest: debug
+#  pattern:
+#    console: "%d - %msg%n"
+## file: classpath:/log/test.log
+#  path: E:\java\All-Workplace\2017workplace\sell\log     #classpath:/log 或 ${classpath:}/log  --> E:/log
