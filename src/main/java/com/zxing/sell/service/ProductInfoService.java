@@ -1,5 +1,7 @@
 package com.zxing.sell.service;
 
+import com.zxing.sell.dto.CartDTO;
+import com.zxing.sell.dto.OrderMasterDTO;
 import com.zxing.sell.model.ProductInfo;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -16,9 +18,21 @@ public interface ProductInfoService {
     ProductInfo save(ProductInfo productInfo);
     /**
      * 查询在架商品
-     * @param upStatus
+     * @param
      * @return
      */
     List<ProductInfo> findUpAll();
+
+    /**
+     * 加库存
+     * @param cartDTOS
+     */
+    void increaseStock(List<CartDTO> cartDTOS);
+
+    /**
+     * 减库存
+     * @param cartDTOS
+     */
+    void decreaseStock(List<CartDTO> cartDTOS);
 
 }

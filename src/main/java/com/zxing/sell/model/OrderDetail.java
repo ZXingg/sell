@@ -25,4 +25,14 @@ public class OrderDetail {
   private java.sql.Date createTime;
   private java.sql.Date updateTime;
 
+  public OrderDetail(String detailId, String orderId, String productId, String productName, BigDecimal productPrice
+          , Integer productQuantity, String productIcon) {
+    this.detailId = detailId;
+    this.orderId = orderId;
+    this.productId = productId;
+    this.productName = productName;
+    this.productPrice = productPrice;
+    this.productQuantity = productQuantity;
+    this.productIcon = productIcon;
+  }
 }

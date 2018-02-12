@@ -1,0 +1,424 @@
+Starting OrderMasterRepositoryTest on ZXing with PID 3192 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@55de24cc: startup date [Mon Feb 12 16:28:47 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7e18679b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.zxing.sell.model.Table
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting OrderMasterRepositoryTest on ZXing with PID 10624 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4ba534b0: startup date [Mon Feb 12 16:34:17 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80e84fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.zxing.sell.model.Table
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting OrderMasterRepositoryTest on ZXing with PID 10624 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@68e47e7: startup date [Mon Feb 12 16:34:42 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80e84fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.zxing.sell.model.Table
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting OrderMasterRepositoryTest on ZXing with PID 10624 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@38e46765: startup date [Mon Feb 12 16:34:47 CST 2018]; root of context hierarchy
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80e84fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: No identifier specified for entity: com.zxing.sell.model.Table
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting OrderMasterRepositoryTest on ZXing with PID 11456 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@30f842ca: startup date [Mon Feb 12 16:37:18 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ca11adb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@30f842ca: startup date [Mon Feb 12 16:37:18 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.zxing.sell.VO.ResultVO com.zxing.sell.controller.BuyerProductController.getList()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderMasterRepositoryTest in 51.721 seconds (JVM running for 61.271)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@30f842ca: startup date [Mon Feb 12 16:37:18 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderMasterRepositoryTest on ZXing with PID 7508 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4bf3798b: startup date [Mon Feb 12 16:40:07 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc676c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4bf3798b: startup date [Mon Feb 12 16:40:07 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.zxing.sell.VO.ResultVO com.zxing.sell.controller.BuyerProductController.getList()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderMasterRepositoryTest in 43.801 seconds (JVM running for 51.222)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@4bf3798b: startup date [Mon Feb 12 16:40:07 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderDetailRepositoryTest on ZXing with PID 11296 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@55de24cc: startup date [Mon Feb 12 16:50:18 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$39e1c174] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@55de24cc: startup date [Mon Feb 12 16:50:18 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.zxing.sell.VO.ResultVO com.zxing.sell.controller.BuyerProductController.getList()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderDetailRepositoryTest in 46.998 seconds (JVM running for 54.551)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@55de24cc: startup date [Mon Feb 12 16:50:18 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImpTest on ZXing with PID 11944 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 19:47:00 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf8411c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 19:47:00 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.zxing.sell.VO.ResultVO com.zxing.sell.controller.BuyerProductController.getList()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceImpTest in 42.521 seconds (JVM running for 53.936)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 19:47:00 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImpTest on ZXing with PID 1984 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 19:49:27 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de0812b4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 19:49:27 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.zxing.sell.VO.ResultVO com.zxing.sell.controller.BuyerProductController.getList()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceImpTest in 53.06 seconds (JVM running for 60.313)
+SQL Error: 1452, SQLState: 23000
+HHH000010: On release of batch it still contained JDBC statements
+Closing org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 19:49:27 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImpTest on ZXing with PID 10820 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 19:57:21 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c63e6b53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 19:57:21 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.zxing.sell.VO.ResultVO com.zxing.sell.controller.BuyerProductController.getList()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceImpTest in 34.189 seconds (JVM running for 40.36)
+SQL Error: 1452, SQLState: 23000
+HHH000010: On release of batch it still contained JDBC statements
+Closing org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 19:57:21 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImpTest on ZXing with PID 7240 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 20:08:26 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf8411c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 20:08:26 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.zxing.sell.VO.ResultVO com.zxing.sell.controller.BuyerProductController.getList()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceImpTest in 29.547 seconds (JVM running for 35.653)
+【创建订单】result=OrderMasterDTO(orderId=null, buyerName=zxx, buyerPhone=12345678901, buyerAddress=广州, buyerOpenid=123xxx, orderAmount=null, orderStatus=null, payStatus=null, createTime=null, updateTime=null, orderDetailList=[OrderDetail(detailId=1518437331069571977, orderId=1518437330842526434, productId=123, productName=皮蛋粥, productPrice=3.20, productQuantity=20, productIcon=http://dream96.top/pdz.png, createTime=null, updateTime=null)])
+Closing org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 20:08:26 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImpTest on ZXing with PID 8260 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 20:17:56 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c722056a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 20:17:56 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.zxing.sell.VO.ResultVO com.zxing.sell.controller.BuyerProductController.getList()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceImpTest in 32.889 seconds (JVM running for 46.543)
+【创建订单】result=OrderMasterDTO(orderId=null, buyerName=zxx, buyerPhone=12345678901, buyerAddress=广州, buyerOpenid=123xxx, orderAmount=null, orderStatus=null, payStatus=null, createTime=null, updateTime=null, orderDetailList=[OrderDetail(detailId=1518437905917687346, orderId=1518437905625155954, productId=123, productName=皮蛋粥, productPrice=3.20, productQuantity=2, productIcon=http://dream96.top/pdz.png, createTime=null, updateTime=null), OrderDetail(detailId=1518437905927610302, orderId=1518437905625155954, productId=145, productName=皮皮虾, productPrice=5.20, productQuantity=2, productIcon=http://dream96.top/ppx.png, createTime=null, updateTime=null)])
+Closing org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 20:17:56 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImpTest on ZXing with PID 1168 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 20:34:46 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf8411c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 20:34:46 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.zxing.sell.VO.ResultVO com.zxing.sell.controller.BuyerProductController.getList()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceImpTest in 44.284 seconds (JVM running for 51.382)
+HHH000397: Using ASTQueryTranslatorFactory
+【查询单个订单】result：OrderMasterDTO(orderId=1518437330842526434, buyerName=zxx, buyerPhone=12345678901, buyerAddress=广州, buyerOpenid=123xxx, orderAmount=64.00, orderStatus=0, payStatus=0, createTime=2018-02-12, updateTime=2018-02-12, orderDetailList=[OrderDetail(detailId=1518437331069571977, orderId=1518437330842526434, productId=123, productName=皮蛋粥, productPrice=3.20, productQuantity=20, productIcon=http://dream96.top/pdz.png, createTime=2018-02-12, updateTime=2018-02-12)])
+Closing org.springframework.web.context.support.GenericWebApplicationContext@3feb2dda: startup date [Mon Feb 12 20:34:46 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImpTest on ZXing with PID 824 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@69c81773: startup date [Mon Feb 12 21:00:41 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2af6922a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@69c81773: startup date [Mon Feb 12 21:00:41 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.zxing.sell.VO.ResultVO com.zxing.sell.controller.BuyerProductController.getList()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceImpTest in 39.754 seconds (JVM running for 45.934)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@69c81773: startup date [Mon Feb 12 21:00:41 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImpTest on ZXing with PID 4848 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4bf3798b: startup date [Mon Feb 12 21:03:48 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4708c5c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4bf3798b: startup date [Mon Feb 12 21:03:48 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.zxing.sell.VO.ResultVO com.zxing.sell.controller.BuyerProductController.getList()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceImpTest in 41.087 seconds (JVM running for 52.683)
+HHH000397: Using ASTQueryTranslatorFactory
+Starting OrderServiceImpTest on ZXing with PID 9996 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@9bd0fa6: startup date [Mon Feb 12 21:46:18 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$75af4684] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@9bd0fa6: startup date [Mon Feb 12 21:46:18 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.zxing.sell.VO.ResultVO com.zxing.sell.controller.BuyerProductController.getList()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceImpTest in 34.603 seconds (JVM running for 43.208)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@9bd0fa6: startup date [Mon Feb 12 21:46:18 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImpTest on ZXing with PID 5208 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1cd201a8: startup date [Mon Feb 12 21:49:45 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f4e1130] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1cd201a8: startup date [Mon Feb 12 21:49:45 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.zxing.sell.VO.ResultVO com.zxing.sell.controller.BuyerProductController.getList()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceImpTest in 44.919 seconds (JVM running for 52.522)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@1cd201a8: startup date [Mon Feb 12 21:49:45 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImpTest on ZXing with PID 4860 (started by zx in E:\java\All-Workplace\2017workplace\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7e990ed7: startup date [Mon Feb 12 21:55:12 CST 2018]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.6.Final
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b05e3552] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7e990ed7: startup date [Mon Feb 12 21:55:12 CST 2018]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.zxing.sell.VO.ResultVO com.zxing.sell.controller.BuyerProductController.getList()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Started OrderServiceImpTest in 37.801 seconds (JVM running for 43.846)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@7e990ed7: startup date [Mon Feb 12 21:55:12 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'

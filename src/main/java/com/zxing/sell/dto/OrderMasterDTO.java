@@ -26,4 +26,11 @@ public class OrderMasterDTO {
   private java.sql.Date updateTime;
   private List<OrderDetail> orderDetailList;
 
+  public OrderMasterDTO(String buyerName, String buyerPhone, String buyerAddress, String buyerOpenid, List<OrderDetail> orderDetailList) {
+    this.buyerName = buyerName;
+    this.buyerPhone = buyerPhone;
+    this.buyerAddress = buyerAddress;
+    this.buyerOpenid = buyerOpenid;
+    this.orderDetailList = orderDetailList;
+  }
 }
