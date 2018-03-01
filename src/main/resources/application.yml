@@ -1,10 +1,13 @@
 server:
   port: 8081
   context-path: /sell
+mybatis:
+  type-aliases-package: com.zxing.sell.model
+  mapper-locations: classpath:/mapper/*.xml
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/sell?characterEncoding=utf8&useSSL=false
+    url: jdbc:mysql://47.100.173.161:3306/sell?characterEncoding=utf8&useSSL=false
     username: root
     password: z101496x
   jpa:
@@ -12,12 +15,48 @@ spring:
   devtools:
     livereload:
       enabled: true
-    restart:
-      trigger-file: E:\java\All-Workplace\2017workplace\sell\src\main\java\com\zxing\sell\restartTriggerFile.txt
-logging:
-  level: info #此处设置debug不生效？？应去除springboot自带slf4j依赖？
+#    restart:
+#      trigger-file: E:\java\All-Workplace\2017workplace\sell\src\main\java\com\zxing\sell\restartTriggerFile.txt
+  jackson:
+    default-property-inclusion: non_null #配置返回前端字段不为空
+  freemarker:
+    cache: false
+  redis:
+    host: 47.100.173.161
+    port: 6379
+    password: z101496x
 
-#    com.zxing.sell.LombokTest: debug
+wechat:
+  mpAppid: wx9d54f423868f296a
+  mpSecret: 107f0e05bd9d4ec8772860c7ec969152
+  #open 开放平台 微信扫码登录 需公司资质
+  openAppid:
+  openSecret:
+  #pay
+  mchId:  #普通模式
+  mchKey:  #普通模式
+  #subAppId:  #服务商模式
+  #subMchId:  #服务商模式
+  keyPath:
+  notifyURL: https://dream96.top/sell/pay/notify #异步通知路径
+  #模板消息
+  templateId:
+    orderStatus: GTEXaL6sYhV2zB4Nm-4JA2lewCGccrYAbnMPJ3HT8Xw
+
+
+projectUrl:
+  mpAuthorizeUrl: https://dream96.top
+  openAuthorizeUrl: https://dream96.top
+  sellUrl: https://dream96.top #http://127.0.0.1:8081 #
+
+
+logging:
+  level: #info
+    com.zxing.sell.model.mapper: trace #打印mybatis sql语句
+#      org.springframework.web: DEBUG
+#      com.github.binarywang.demo.wxpay: DEBUG
+#      com.github.binarywang.wxpay: DEBUG
+#      com.zxing.sell.LombokTest: debug
 #  pattern:
 #    console: "%d - %msg%n"
 ## file: classpath:/log/test.log

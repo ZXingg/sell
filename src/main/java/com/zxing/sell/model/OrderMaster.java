@@ -1,6 +1,6 @@
 package com.zxing.sell.model;
 
-import com.zxing.sell.enums.OrderMasterEnum;
+import com.zxing.sell.enums.OrderStatusEnum;
 import com.zxing.sell.enums.PayStatusEnum;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -25,7 +25,7 @@ public class OrderMaster {
   private String buyerAddress;
   private String buyerOpenid;
   private BigDecimal orderAmount;
-  private Integer orderStatus= OrderMasterEnum.NEW.getCode();
+  private Integer orderStatus= OrderStatusEnum.NEW.getCode();
   private Integer payStatus= PayStatusEnum.WAIT.getCode();
   private java.sql.Date createTime;
   private java.sql.Date updateTime;

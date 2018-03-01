@@ -32,6 +32,13 @@ public interface OrderService {
     Page<OrderMasterDTO> findList(String buyerOpenid, Pageable pageable);
 
     /**
+     * 查询所有
+     * @param pageable
+     * @return
+     */
+    Page<OrderMasterDTO> findList(Pageable pageable);
+
+    /**
      * 取消订单
      * @param orderMasterDTO
      * @return

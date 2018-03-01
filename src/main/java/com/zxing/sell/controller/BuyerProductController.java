@@ -10,15 +10,13 @@ import com.zxing.sell.service.imp.ProductInfoServiceImp;
 import com.zxing.sell.utils.ResultVOUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import sun.reflect.misc.ReflectUtil;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -36,7 +34,9 @@ public class BuyerProductController {
     private ProductCategoryServiceImp productCategoryServiceImp;
 
     @GetMapping("/list")
-    public ResultVO getList() {
+    //请求参数testKey的长度大于3 且 访问成功结果正确时 缓存本次结果 #result为返回的对象-ResultVO
+    @Cacheable(cacheNames = "products", key = "#testKey", condition = "#testKey.length()>3", unless = "#result.getCode()!=0")
+    public ResultVO getList(@RequestParam(value = "testKey", required = false, defaultValue = "") String testKey) {
 //        ProductInfoVO productInfoVO = new ProductInfoVO("123", "皮蛋粥", new BigDecimal(3.2), "好喝", "pdz.png");
 //        ProductVO productVO = new ProductVO("男生最爱", 0, Arrays.asList(productInfoVO));
         //查询所有在架商品

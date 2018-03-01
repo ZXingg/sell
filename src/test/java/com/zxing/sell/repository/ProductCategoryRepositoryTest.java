@@ -16,31 +16,31 @@ import java.util.List;
 public class ProductCategoryRepositoryTest {
 
     @Autowired
-    ProductCatagoryRepository productCatagoryRepository;
+    ProductCategoryRepository productCategoryRepository;
 
     @Test
     public void addOne(){
-        ProductCategory productCategory=productCatagoryRepository.save(new ProductCategory("儿童最爱",4));
+        ProductCategory productCategory=productCategoryRepository.save(new ProductCategory("儿童最爱",4));
         Assert.assertNotNull(productCategory);
 //        Assert.assertNotEquals(null,productCategory);
     }
 
     @Test
     public void updOne(){
-        ProductCategory productCategory=productCatagoryRepository.findOne(2);
+        ProductCategory productCategory=productCategoryRepository.findOne(2);
         productCategory.setCategoryName("女生最爱");
-        productCatagoryRepository.save(productCategory);
+        productCategoryRepository.save(productCategory);
     }
 
     @Test
     public void findOne(){
-        System.out.println(productCatagoryRepository.findOne(1));
+        System.out.println(productCategoryRepository.findOne(1));
     }
 
     @Test
     public void findByCategoryTypeIn(){
         List<Integer> types= Arrays.asList(1,2,3);
-        List<ProductCategory> productCategories=productCatagoryRepository.findByCategoryTypeIn(types);
+        List<ProductCategory> productCategories=productCategoryRepository.findByCategoryTypeIn(types);
         Assert.assertNotEquals(0,productCategories.size());
     }
 }

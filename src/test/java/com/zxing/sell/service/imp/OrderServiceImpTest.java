@@ -1,8 +1,8 @@
 package com.zxing.sell.service.imp;
 
-import com.zxing.sell.dto.CartDTO;
 import com.zxing.sell.dto.OrderMasterDTO;
-import com.zxing.sell.enums.OrderMasterEnum;
+import com.zxing.sell.enums.OrderStatusEnum;
+import com.zxing.sell.enums.PayStatusEnum;
 import com.zxing.sell.model.OrderDetail;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
@@ -17,7 +17,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.*;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Slf4j
@@ -64,15 +63,21 @@ public class OrderServiceImpTest {
     public void cancle() throws Exception {
         OrderMasterDTO orderMasterDTO=orderServiceImp.findOne("1518437905625155954");
         OrderMasterDTO result=orderServiceImp.cancle(orderMasterDTO);
-        Assert.assertEquals(OrderMasterEnum.CANCLE.getCode(),result.getOrderStatus());
+        Assert.assertEquals(OrderStatusEnum.CANCEL.getCode(),result.getOrderStatus());
     }
 
     @Test
     public void finish() throws Exception {
+        OrderMasterDTO orderMasterDTO=orderServiceImp.findOne("1518437905625155954");
+        OrderMasterDTO result=orderServiceImp.finish(orderMasterDTO);
+        Assert.assertEquals(OrderStatusEnum.FINISHED.getCode(),result.getOrderStatus());
     }
 
     @Test
     public void paid() throws Exception {
+        OrderMasterDTO orderMasterDTO=orderServiceImp.findOne(ORDERID);
+        OrderMasterDTO result=orderServiceImp.paid(orderMasterDTO);
+        Assert.assertEquals(PayStatusEnum.SUCCESS.getCode(),result.getPayStatus());
     }
 
 }

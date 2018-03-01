@@ -11,10 +11,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.awt.print.Pageable;
 import java.math.BigDecimal;
-
-import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -24,9 +21,9 @@ public class ProductInfoServiceImpTest {
 
     @Test
     public void save() throws Exception {
-        ProductInfo productInfo = new ProductInfo("123", "皮蛋粥", new BigDecimal(3.2), 100, "好喝的皮蛋粥。。", "http://dream96.top/pdz.png", ProductInfoStatusEnum.UP.getStatus(), 2);
+        ProductInfo productInfo = new ProductInfo("123", "皮蛋粥", new BigDecimal(3.2), 100, "好喝的皮蛋粥。。", "http://dream96.top/pdz.png", ProductInfoStatusEnum.UP.getCode(), 2);
         productInfoServiceImp.save(productInfo);
-        ProductInfo productInfo1 = new ProductInfo("145", "皮皮虾", new BigDecimal(5.2), 100, "好吃的皮皮虾。。", "http://dream96.top/ppx.png", ProductInfoStatusEnum.DOWN.getStatus(), 1);
+        ProductInfo productInfo1 = new ProductInfo("145", "皮皮虾", new BigDecimal(5.2), 100, "好吃的皮皮虾。。", "http://dream96.top/ppx.png", ProductInfoStatusEnum.DOWN.getCode(), 1);
         productInfoServiceImp.save(productInfo1);
     }
 

@@ -422,3 +422,5 @@ Started OrderServiceImpTest in 37.801 seconds (JVM running for 43.846)
 HHH000397: Using ASTQueryTranslatorFactory
 Closing org.springframework.web.context.support.GenericWebApplicationContext@7e990ed7: startup date [Mon Feb 12 21:55:12 CST 2018]; root of context hierarchy
 Closing JPA EntityManagerFactory for persistence unit 'default'
+Closing org.springframework.web.context.support.GenericWebApplicationContext@4bf3798b: startup date [Mon Feb 12 21:03:48 CST 2018]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'

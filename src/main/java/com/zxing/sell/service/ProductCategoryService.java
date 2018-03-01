@@ -1,6 +1,8 @@
 package com.zxing.sell.service;
 
 import com.zxing.sell.model.ProductCategory;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -12,6 +14,7 @@ import java.util.List;
 public interface ProductCategoryService {
     ProductCategory findOne(Integer id);
     List<ProductCategory> findAll();
+    Page<ProductCategory> findAll(Pageable pageable);
     List<ProductCategory> findByCategoryTypeIn(List<Integer> types);
     ProductCategory save(ProductCategory productCategory);
 }

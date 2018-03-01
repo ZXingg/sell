@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <title>pay</title>
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <link href="https://cdn.bootcss.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <style type="text/css">
+        #tip {
+            width: 30%;
+            height: 80px;
+            position: absolute;
+            top: 20%;
+            left: 35%;
+            font-size: 40px;
+            color: green;
+            text-align: center;
+            line-height: 80px;
+            background: rgba(84, 126, 189, 0.5);
+            border-radius: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+<button value="1518501391580486607" onclick="cancel(this.value)">取消</button>
+
+<script type="text/javascript">
+    function cancel(orderId) {
+        $.ajax({
+            url: "http://localhost:8081/sell/seller/order/cancel?orderId=" + orderId,
+            async: false,
+            success: function (data) {
+                result = JSON.parse(data);
+                tip(result.msg);
+            },
+            fail: function (error) {
+                tip(error.message);
+            }
+        });
+
+    }
+
+    function tip(msg) {
+        var box = document.getElementById("tip");
+        box.innerHTML = msg;
+        box.style.display = "block";
+        setTimeout(function () {
+            document.getElementById("tip").style.display = "none";
+        }, 3000);
+    }
+
+    //    tip("操作成功！");
+</script>
+<script type="text/javascript">
+    function onBridgeReady() {
+        WeixinJSBridge.invoke(
+            'getBrandWCPayRequest', {
+                "appId": "wx2421b1c4370ec43b",     //公众号名称，由商户传入
+                "timeStamp": "1395712654",         //时间戳，自1970年以来的秒数
+                "nonceStr": "e61463f8efa94090b1f366cccfbbb444", //随机串
+                "package": "prepay_id=u802345jgfjsdfgsdg888",
+                "signType": "MD5",         //微信签名方式：
+                "paySign": "70EA570631E4BB79628FBCA90534C63FF7FADD89" //微信签名
+            },
+            function (res) {
+                if (res.err_msg == "get_brand_wcpay_request:ok") {
+                }     // 使用以上方式判断前端返回,微信团队郑重提示：res.err_msg将在用户支付成功后返回    ok，但并不保证它绝对可靠。
+            }
+        );
+    }
+
+    if (typeof WeixinJSBridge == "undefined") {
+        if (document.addEventListener) {
+            document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+        } else if (document.attachEvent) {
+            document.attachEvent('WeixinJSBridgeReady', onBridgeReady);
+            document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+        }
+    } else {
+        onBridgeReady();
+    }
+</script>
+</body>
+</html>

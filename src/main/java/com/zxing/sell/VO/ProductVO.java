@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -14,7 +15,7 @@ import java.util.List;
  */
 @Data
 @AllArgsConstructor
-public class ProductVO {
+public class ProductVO implements Serializable {
     @JsonProperty("name")
     private String categoryName;
 

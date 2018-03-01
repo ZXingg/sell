@@ -1,9 +1,11 @@
 package com.zxing.sell.service.imp;
 
 import com.zxing.sell.model.ProductCategory;
-import com.zxing.sell.repository.ProductCatagoryRepository;
+import com.zxing.sell.repository.ProductCategoryRepository;
 import com.zxing.sell.service.ProductCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,25 +17,30 @@ import java.util.List;
 @Service
 public class ProductCategoryServiceImp implements ProductCategoryService {
     @Autowired
-    private ProductCatagoryRepository productCatagoryRepository;
+    private ProductCategoryRepository productCategoryRepository;
 
     @Override
     public ProductCategory findOne(Integer id) {
-        return productCatagoryRepository.findOne(id);
+        return productCategoryRepository.findOne(id);
     }
 
     @Override
     public List<ProductCategory> findAll() {
-        return productCatagoryRepository.findAll();
+        return productCategoryRepository.findAll();
+    }
+
+    @Override
+    public Page<ProductCategory> findAll(Pageable pageable) {
+        return productCategoryRepository.findAll(pageable);
     }
 
     @Override
     public List<ProductCategory> findByCategoryTypeIn(List<Integer> types) {
-        return productCatagoryRepository.findByCategoryTypeIn(types);
+        return productCategoryRepository.findByCategoryTypeIn(types);
     }
 
     @Override
     public ProductCategory save(ProductCategory productCategory) {
-        return productCatagoryRepository.save(productCategory);
+        return productCategoryRepository.save(productCategory);
     }
 }
